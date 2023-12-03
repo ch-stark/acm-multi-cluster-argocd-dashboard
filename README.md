@@ -46,6 +46,12 @@ data:
       - argocd_git_request_duration_seconds_bucket
       - argocd-repo-server
       - argocd_redis_request_total
+      - argocd_appset_applied_total
+      - argocd_appset_applied_failed_total
+      - argocd_appset_applied_duration_seconds_bucket.
+      - argocd_appset_reconcile_total
+      - argocd_appset_reconcile_failed_total
+      - argocd_appset_reconcile_duration_seconds_bucket
 YAML
 ```
 
